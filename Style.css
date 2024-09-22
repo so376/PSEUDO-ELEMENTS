@@ -1,0 +1,33 @@
+body{
+    background-color: papayawhip;
+    color: black;
+}
+h1{
+    color: gray;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+ul>li:hover{
+    color:darkgrey ;
+}
+ul li::before{
+    content: "😊😊😂😊";
+}
+a:after{
+    content:"👍";
+}
+p::first-letter{
+    font-size: 200%;
+    color: blue;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+
+
+    
