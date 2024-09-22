@@ -1,9 +1,9 @@
 body{
-    background-color: papayawhip;
+    background-color: aliceblue;
     color: black;
 }
 h1{
-    color: gray;
+    color: grey;
 }
 a{
     color: blue;
@@ -13,13 +13,13 @@ a:hover{
     color: aqua;
 }
 ul>li:hover{
-    color:darkgrey ;
+    color:pink ;
 }
 ul li::before{
-    content: "😊😊😂😊";
+    content: "🤯";
 }
 a:after{
-    content:"👍";
+    content:"🤩";
 }
 p::first-letter{
     font-size: 200%;
